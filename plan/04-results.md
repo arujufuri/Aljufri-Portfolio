@@ -16,6 +16,7 @@
 ## Screenshot: Desktop
 
 [paste screenshot — all sections visible]
+![hasil destkop](https://github.com/arujufuri/Aljufri-Portfolio/blob/main/assets/Destkop.png?raw=true)
 
 ---
 
