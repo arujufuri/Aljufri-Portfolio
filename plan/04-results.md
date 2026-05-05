@@ -23,6 +23,7 @@
 ## Screenshot: Mobile
 
 [paste screenshot — responsive, no horizontal scroll]
+![hasil mobile](https://github.com/arujufuri/Aljufri-Portfolio/blob/main/assets/Mobile.png)
 
 ---
 
@@ -38,11 +39,12 @@
 
 ## Challenges & Solutions
 
-Challenge 1: [Deskripsi]
-How I Solved: [Solution]
+Challenge 1: [Menentukan konsep dari website yang dibuat]
+How I Solved: [menentukannya dari berbagai pilihan yang menurut saya cocok]
 
-Challenge 2: [Deskripsi]
-How I Solved: [Solution]
+
+Challenge 2: [Menentukan warna yang sesuai]
+How I Solved: [mencoba satu-satu warna yang pada web hingga menemukan yang cocok]
 ```
 
 ---
