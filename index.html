@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio IT Fresh Graduate - Junior Front-End Developer">
+    <title>Aljufri | Front-End Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Bagian Kepala & Navigasi -->
+    <header id="beranda">
+        <nav aria-label="Navigasi Utama">
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#keterampilan">Keterampilan</a></li>
+                <li><a href="#proyek">Proyek</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <h1>Halo, Saya Aljufri</h1>
+            <p>Fresh Graduate IT & Junior Front-End Developer</p>
+            <a href="#proyek" class="btn">Lihat Karya Saya</a>
+        </section>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Saya seorang lulusan Teknik Informatika yang berdedikasi membangun antarmuka web yang semantik, responsif, dan aksesibel. Memiliki fondasi kuat dalam HTML5, CSS Modern, dan pemrograman Java.</p>
+        </section>
+
+        <section id="keterampilan">
+            <h2>Keterampilan Teknis</h2>
+            <!-- Menggunakan aside untuk elemen pelengkap, menghindari div -->
+            <aside class="marquee-container" aria-label="Daftar Keterampilan Berjalan">
+                <article class="marquee-content">
+                    <span class="pill">HTML5 Semantik</span>
+                    <span class="pill">CSS3 Modern</span>
+                    <span class="pill">Java (OOP)</span>
+                    <span class="pill">Mobile-First</span>
+                    <span class="pill">Aksesibilitas (a11y)</span>
+                    <span class="pill">UI/UX Basics</span>
+                    
+                    <!-- Duplikasi item untuk efek marquee tanpa putus. 
+                         aria-hidden="true" agar screen reader tidak membaca ganda -->
+                    <span class="pill" aria-hidden="true">HTML5 Semantik</span>
+                    <span class="pill" aria-hidden="true">CSS3 Modern</span>
+                    <span class="pill" aria-hidden="true">Java (OOP)</span>
+                    <span class="pill" aria-hidden="true">Mobile-First</span>
+                    <span class="pill" aria-hidden="true">Aksesibilitas (a11y)</span>
+                    <span class="pill" aria-hidden="true">UI/UX Basics</span>
+                </article>
+            </aside>
+        </section>
+
+        <section id="proyek">
+            <h2>Proyek Unggulan</h2>
+            <!-- Artikel digunakan untuk kartu proyek yang berdiri sendiri -->
+            <article class="card">
+                <h3>Sistem Manajemen Perpustakaan (Java)</h3>
+                <p>Aplikasi desktop dengan arsitektur MVC menggunakan Java Swing. Fokus pada logika bisnis dan Object-Oriented Programming yang solid.</p>
+            </article>
+            <article class="card">
+                <h3>Katalog Web Responsif</h3>
+                <p>Website satu halaman yang dibangun murni dengan HTML5 Semantik dan CSS Flexbox/Grid, mengutamakan performa dan aksesibilitas.</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Bagian Kaki & Kontak -->
+    <footer id="kontak">
+        <h2>Mari Berdiskusi</h2>
+        <!-- Tag address khusus untuk informasi kontak -->
+        <address>
+            <p>Email: <a href="mailto:Arujufuri@gmail.com">Arujufuri@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/jufrial27">linkedin.com/in/jufrial27</a></p>
+            <p>GitHub: <a href="https://github.com/arujufuri">github.com/arujufuri</a></p>
+        </address>
+        <p>&copy; 2026 Aljufri.</p>
+    </footer>
+
+</body>
+</html>
